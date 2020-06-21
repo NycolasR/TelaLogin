@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(47, 120, 216);
+    text-align: center;
+    font: normal;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+}
+
+span {
+    font-style: italic;
+}
+
+input:hover {
+    background-color: #8dda4e;
+}
+
+div#interface {
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.795);
+    margin-top: 30px;
+}
+
+div#interface header#cabecalho {
+    padding: 0px;
+}
+
+div#interface header#cabecalho h2 {
+    font-size: 16pt;
+    color: #888888;
+    margin-top: 0px;
+}
+
+div#interface header#cabecalho input#btnCadastro {
+    width: 490px;
+    height: 40px;
+    background-color: rgb(47, 120, 216);
+    font-size: 17pt;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: -17px;
+    margin-bottom: 15px;
+}
+
+div#interface header#cabecalho h3 {
+    font-size: 14px;
+    margin-top: -5px;
+    color: #888888;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section#sessaoPrincipal {
+    text-align: left;
+    padding: 0px;
+}
+
+
+section#sessaoPrincipal h1 {
+    font-size: 19pt;
+    color: #888888;
+    margin: 5px;
+}
+
+section#sessaoPrincipal input {
+    width: 490px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: rgb(226, 213, 213);
+}
+
+section#sessaoPrincipal h2#recuperacao {
+    color: rgb(47, 120, 216);
+    font-size: 11pt;
+    margin-top: 3px;
+}
+
+section#sessaoPrincipal h2#recuperacao:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section#sessaoPrincipal input#btnEntrar {
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(47, 120, 216);
+    border-radius: 10px;
+    border-style: none;
+    position: relative;
+    left: 407px;
+    margin-top: 15px;
+}
